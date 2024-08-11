@@ -4,11 +4,11 @@ on:
   # Automatic trigger on push events to the main branch
   push:
     branches:
-      - master
+      - main
   # Automatic trigger on pull request events targeting the main branch
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - 'starter/frontend/**'
   # Manual trigger using the workflow_dispatch event
