@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  # ESLintを使用してフロントエンドコードをリントするジョブ
+  # ESLintを使用してフロントエンドコードをリントするジョブj
   lint:
     name: 'Lint Frontend'
     runs-on: ubuntu-latest # Ubuntu環境でジョブを実行
